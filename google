@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
+        #search-box {
+            width: 500px;
+            height: 30px;
+            border-radius: 24px;
+            border: 1px solid #dcdcdc;
+            padding: 10px 20px;
+            font-size: 16px;
+            outline: none;
+            margin-bottom: 20px;
+        }
+
+        #search-button {
+            padding: 10px 20px;
+            font-size: 14px;
+            background-color: #f8f8f8;
+            border: 1px solid #dcdcdc;
+            border-radius: 24px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        #search-button:hover {
+            background-color: #f1f1f1;
+        }
+
+        #search-button:active {
+            background-color: #e8e8e8;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+            font-size: 12px;
+            color: #70757a;
+        }
+
+        footer a {
+            color: #70757a;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_92x30dp.png" alt="Google Logo">
+        <input id="search-box" type="text" placeholder="Buscar en Google">
+        <div>
+            <button id="search-button">Buscar con Google</button>
+            <button id="search-button">Me siento con suerte</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>España</p>
+        <p><a href="https://policies.google.com/privacy">Privacidad</a> | <a href="https://policies.google.com/terms">Condiciones</a></p>
+    </footer>
+</body>
+</html>
